@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Privacy Policy - GhostChrome</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, sans-serif;
+      background: #f1f5f9;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 20px;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: #ffffff;
+      max-width: 600px;
+      width: 100%;
+      border-radius: 18px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      padding: 28px 24px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #111827;
+    }
+
+    h1 span {
+      font-size: 26px;
+    }
+
+    p {
+      font-size: 15px;
+      color: #374151;
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+
+    .highlight {
+      font-weight: 600;
+      color: #111827;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #e5e7eb;
+      margin: 20px 0;
+    }
+
+    .backBtn {
+      display: inline-block;
+      padding: 10px 14px;
+      background: #4b5563;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      box-shadow: 0 3px 8px rgba(59, 130, 246, 0.25);
+      transition: background 0.2s ease;
+      margin-top: 10px;
+    }
+
+    .backBtn:hover {
+      background: #374151;
+    }
+
+    .backBtn:active {
+      transform: scale(0.97);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1><span>🔒</span> Privacy Policy</h1>
+
+    <p><span class="highlight">GhostChrome</span> is designed with privacy as the top priority.
+       This extension <span class="highlight">does not collect, track, or share</span> any personal data.</p>
+
+    <p>All saved passwords and sessions are stored locally in your browser using 
+       <span class="highlight">Chrome’s secure storage</span>. No information is sent to any external server or third party.</p>
+
+    <p>You have complete control over your data. You can reset or remove all sessions at any time directly from the extension’s Options page.</p>
+
+    <hr>
+
+    <p>For extra security, use a strong password for your sessions and lock GhostChrome when stepping away.</p>
+
+    <button class="backBtn" id="backToOptions">⬅️ Back to Settings</button>
+  </div>
+
+  <script src="privacy.js"></script>
+</body>
+</html>
